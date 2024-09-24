@@ -3,6 +3,7 @@ package com.apiweb.coursebackend.controller;
 import com.apiweb.coursebackend.dto.CourseContentDto;
 import com.apiweb.coursebackend.service.CoursecontentService;
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/api/coursecontent")
 public class CoursecontentController {
 
+    @Autowired
     private CoursecontentService coursecontentService;
 
     //Build Add Coursecontent REST API

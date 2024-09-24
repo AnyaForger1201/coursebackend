@@ -19,27 +19,27 @@ public class Coursecontent {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long Id;
 
-    @Column(name = "Buổi 1: Giới thiệu bản thân và người khác")
+    @Column(name = "Buoi1")
     private String Buoi1;
 
-    @Column(name = "Buổi 2: Giao tiếp trong các tình huống hàng ngày")
+    @Column(name = "Buoi2")
     private String Buoi2;
 
-    @Column(name = "Buổi 3: Giao tiếp trong công việc")
+    @Column(name = "Buoi3")
     private String Buoi3;
 
-    @Column(name = "Buổi 4: Phát âm chuẩn tiếng Anh")
+    @Column(name = "Buoi4")
     private String Buoi4;
 
-    @Column(name = "Buổi 5: Giao tiếp khi đi du lịch")
+    @Column(name = "Buoi5")
     private String Buoi5;
 
-    @Column(name = "Buổi 6: Giao tiếp qua điện thoại")
+    @Column(name = "Buoi6")
     private String Buoi6;
 
-    @Column(name = "Buổi 7: Giao tiếp trong tình huống khẩn cấp")
+    @Column(name = "Buoi7")
     private String Buoi7;
 
-    @Column(name = "Buổi 8: Ôn tập và kiểm tra")
+    @Column(name = "Buoi8")
     private String Buoi8;
 }
